@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RED ONION</title>
+     <!-- favicon -->
+     <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <!-- custom css link -->
+    <!-- <link rel="stylesheet" href="css/style.css"> -->
+    <!-- google fonts link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet">
+    <!-- bootstrap css link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <!-- owl carousel cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body{
+            background-image: url(bannerbackground.png);
+        }
+        input.countity{
+            width: 60px;
+            padding: 3px 8px;
+            margin: 0 10px;
+            /* text-align: center; */
+            border-radius: 50px;
+            color: #e74c3c;
+            border: 1px solid #f2f2f2f2;
+            box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+        }
+        input.countity:focus{
+            outline: none;
+        }
+        .check-img img{
+            transition: all 0.5s ease-in-out;
+        }
+        .check-img img:hover{
+            transform: scale(1.2);
+            
+        }
+        .card img{
+            transition: all 0.3s;
+        }
+        .card img:hover{
+            transform: scale(1.1);
+        }
+        h6.price{
+            color: #e74c3c;
+        }
+        p.f-text:hover{
+            color: #ff4757;
+            cursor: pointer;
+        }
+        button.check-btn{
+            border: none;
+            width: 150px;
+            height: 35px;
+            text-align: center;
+            background: tomato;
+            color: white;
+            border-radius: 5px;
+        }
+        button.check-btn:hover{
+            background: #e74c3c;
+        }
+        p.desc{
+            text-align: justify;
+        }
+    </style>
+    
+</head>
+<body>
+    <div class="container mt-5 mb-5 bg-container">
+        <div class="row">
+            <a href="index.html" class="text-center check-img"><img src="logo2.png" class="img-fluid" width="200px" alt=""></a>
+            <div class="col-md-6">
+                <h5>Edit Delivery Details</h5>
+                <hr class="w-50">
+                <input type="text" class="form-control" value="Deliver to Door">
+                <input type="text" class="form-control mt-2" value="107 Road no 4">
+                <input type="text" class="form-control mt-2" value="107 Road no 4">
+                <input type="text" class="form-control mt-2" placeholder="Flat, suite or floor">
+                <input type="text" class="form-control mt-2" placeholder="Business Name">
+                <input type="text" class="form-control mt-2" placeholder="Add delivery instructor">
+                <button class="check-btn mt-2" type="button">Save & Continue</button>
+            </div>
+            <div class="col-md-1"></div>
+            <div class="col-md-4">
+                <p class="mt-2 py-3 text-muted">From <strong>8 Gulshan Plaza Restaurant GPR</strong> <br> Arriving in 20-30 min <br> 107 Road no 8</p>
+                <div class="card shadow-sm mb-2">
+                    <div class="p-2 d-flex justify-content-between align-items-center rounded-3">
+                        <img src="Dinner/dinner5.png" class="img-fluid" width="70" alt="">
+                        <div>
+                            <h6 class="text-muted text-left">Butter Naan</h6>
+                            <h6 class="price">$15.99 <span><input type="number" value="1" min="1" class="countity"></span></h6>
+                            <p class="text-muted">Delivery Free</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card shadow-sm">
+                    <div class="p-2 d-flex justify-content-between align-items-center rounded-3">
+                        <img src="Dinner/dinner3.png" class="img-fluid" width="70" alt="">
+                        <div>
+                            <h6 class="text-muted text-left">Baked Salmon</h6>
+                            <h6 class="price">$12.99 <span><input type="number" value="1" min="1" class="countity"></span></h6>
+                            <p class="text-muted">Delivery Free</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-3">
+                    <div class="d-flex align-items-center justify-content-between">
+                        <h6>Subtotal <strong>.</strong> 2 Items</h6>
+                        <h6 style="color: tomato;">$27.00</h6>
+                    </div>
+                    <div class="d-flex align-items-center justify-content-between">
+                        <h6>Tax <span></h6>
+                        <h6 style="color: tomato;">$5.00</h6>
+                    </div>
+                    <div class="d-flex align-items-center justify-content-between">
+                        <h6>Delivery Fee <span></h6>
+                        <h6 style="color: tomato;">$2.00</h6>
+                    </div>
+                    <hr>
+                    <div class="d-flex align-items-center justify-content-between">
+                        <h6>Total <span></h6>
+                        <h6 style="color: tomato;">$34.00</h6>
+                    </div>
+                    <a href="ordercomplete.html"><button class="check-btn mt-2" type="button">Place Order</button></a>
+                </div>
+            </div>
+            <div class="col-md-1"></div>
+        </div>
+    </div>
+    <!-- footer -->
+    <footer class="bg-dark text-light">
+        <div class="container">
+            <div class="row  p-5">
+                <div class="col-md-7">
+                    <img src="logo.png" class="img-fluid" width="150px" alt="">
+                    <p class="mt-3 desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis exercitationem accusantium eum, doloremque, blanditiis corporis ipsa atque, similique aperiam consequuntur reiciendis at quisquam aspernatur officiis sunt? Provident saepe doloribus dignissimos autem a quasi quia in blanditiis repellendus recusandae unde commodi, voluptate, quos ducimus voluptates obcaecati est neque officiis magnam modi explicabo ex eius aut? Eius quas facere facilis odio magni?</p>
+                </div>
+                <div class="col-md-3">
+                    <p class="f-text">About Online Food</p>
+                    <p class="f-text">Read Our Blog</p>
+                    <p class="f-text">Sign-up to Delivery</p>
+                    <p class="f-text">Add Your Restaurant</p>
+                </div>
+                <div class="col-md-2">
+                    <p class="f-text">Get help</p>
+                    <p class="f-text">Read FAQs</p>
+                    <p class="f-text">View All Cites</p>
+                    <p class="f-text">Restaurant near me</p>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-md-6">
+                    <p class="text-muted">Copyright &copy; 2021 Online food</p>
+                </div>
+                <div class="col-md-2"><p class="f-text text-right">Privacy Policy.</p></div>
+                <div class="col-md-2"><p class="f-text text-right">Team of Use</p></div>
+                <div class="col-md-2"><p class="f-text text-right">Pricing</p></div>
+            </div>
+        </div>
+    </footer>
+    <!-- custom js link -->
+    <script src="js/main.js"></script>
+    <!-- owl carousel cdn link -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- bootstrap js link -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+</body>
+</html>

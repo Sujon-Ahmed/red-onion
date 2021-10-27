@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+    transition: all 0.5s;
+}
+:root{
+    --black:#111111;
+    --orange:#ff4757;
+    --white: #ffffff;
+}
+/* shopping cart */
+.shopping-cart{
+    margin-right: 30px;
+}
+.shopping-cart i.fa{
+    font-size: 20px;
+    color: #333;
+}
+.desc{
+    font-size: 14px;
+    color: white;
+}
+.shopping-cart i.fa:hover{
+    font-size: 20px;
+    color: var(--orange);
+}
+span.rounded-pill{
+    background-color: var(--orange);
+}
+/* design for login */
+a.login{
+    color: var(--black);
+    margin-right: 50px;
+    font-weight: 600;
+    text-decoration: none;
+}
+a.login:hover{
+    color: var(--orange);
+}
+/* design for sign-up */
+a.sign-up{
+    color: var(--white);
+    font-weight: 600;
+    text-decoration: none;
+    width: 160px;
+    height: 40px;
+    /* background: var(--orange); */
+    background: #f12711;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f5af19, #f12711);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f5af19, #f12711); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    padding: 10px 50px;
+    border-radius: 50px;
+}
+a.sign-up:hover{
+    color: var(--black);
+}
+/* banner image design */
+.carousel-caption{
+    margin-bottom: 15%;
+}
+h2.title{
+    color: var(--orange);
+    font-weight: 700;
+}
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: var(--orange);
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #f12711;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+/* button design */
+.card:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.round{
+    width: 100%;
+    height: 40px;
+    background: var(--orange);
+    border-radius: 50px;
+    padding: 10px;
+    text-decoration: none;
+    color: var(--white);
+    margin: auto;
+}
+.round:hover{
+    color: var(--white);
+    background: #f12711;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f5af19, #f12711);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f5af19, #f12711); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.f-text:hover{
+    color: var(--orange);
+    cursor: pointer;
+}
+/* nav tabs */
+.nav-tabs button.nav-link{
+    color: #333;
+}
+.nav-tabs button.nav-link.active{
+    color: var(--orange);
+}
+input[type="number"]{
+    width: 80px;
+    /* padding: 0 20px; */
+    margin: 0 10px;
+    border-radius: 50px;
+    text-align: center;
+    border: 1px solid #f2f2f2f2;
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+input[type="number"]:focus{
+    outline: none;
+}
+.rounds{
+    width: 100%;
+    height: 40px;
+    background: var(--orange);
+    border-radius: 50px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: var(--white);
+}
+.rounds:hover{
+    color: var(--white);
+}
+/* item  */
+.item img{
+    width: 100%;
+}
+/* card img scale */
+.img-card-top:hover{
+    transform: scale(1.1);
+}
+/* footer desc text */
+p.desc{
+    text-align: justify;
+}
+/* pro-num */
+.pro-num{
+    background: #333;
+    padding: 10px;
+    border-radius: 50px;
+    color: white;
+
+}
