@@ -2,6 +2,7 @@
 
 ![License](https://img.shields.io/github/license/Sujon-Ahmed/RED-ONION)
 ![Maintenance](https://img.shields.io/maintenance/yes/2022)
+![GitHub last commit](https://img.shields.io/github/last-commit/Sujon-Ahmed/RED-ONION)
 
 A User Interface of a simple eCommerce site. Fully responsive, mobile friendly. Have option to Registration and Login. Admin Dashboard for managing the site. 
 
